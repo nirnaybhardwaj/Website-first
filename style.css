@@ -1,0 +1,65 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1{
+    font-weight: 400;
+}
+
+/* flexbox- first we do display :flex; then we use the property of flexbox */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+/* 1 rem = 16px */
+
+nav{
+    width: 20rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+li{
+    list-style: none; /*remove the dot */
+    font-size: 1.5rem;
+    
+}
+a{
+    text-decoration: none;/*remove the underline*/
+    color: black;
+}
+
+    /* units =  view-width - vw, view- height - vh*/
+    /* they can max upto 100vh and 100vw */
+
+
+.showcase{
+    width: 95vw;
+    margin: 1rem;
+
+}
+article{
+    display: flex;
+    margin: 1.5rem;
+}
+.content{
+    text-align: center; /* all items becomes center*/
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;/* it checks according to horizontal (x-axis)(checks row-wise*/
+    height: 4rem;
+    align-items: center;/* it checks according to vertical (y-axis)(checks column-wise*/
+    font-size: 1.5rem;
+}
